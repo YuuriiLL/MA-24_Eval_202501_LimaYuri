@@ -30,7 +30,8 @@ import ma24_dames_gfx as damesgfx
 # ------------
 
 #Définition des constantes
-taille_plateau = (10, 9)
+# Nombre de lignes du tableau était mal écrit au lieu de 10 il y avait 9
+taille_plateau = (10, 10)
 damesgfx.plateau(taille_plateau)
 print ("Plateau de", taille_plateau[0], "par", taille_plateau[1])
 damesgfx.start()
