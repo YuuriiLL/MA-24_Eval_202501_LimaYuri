@@ -223,7 +223,8 @@ def avance_gauche(posx, posy):
             if posy < (nb_lignes-1):
                 if posx < (nb_colonnes-1):
                     if plateau_board[posy+1][posx+1] == 1:
-                        avance = (posx+2, posy+1)
+                        # posx n'avait pas les bonnes cordonnées pour les déplacer il y avait +2 deux donc le pion ne se déplacait pas comme il faut de haut en bas gauche
+                        avance = (posx+1, posy+1)
         else:
             # On joue de bas en haut
             if posy > 0:
