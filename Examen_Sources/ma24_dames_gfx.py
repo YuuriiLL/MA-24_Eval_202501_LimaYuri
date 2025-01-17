@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 #--------1---------2---------3---------4---------5---------6---------7---------8
@@ -234,7 +234,8 @@ chemin_images = "pictures\\"
 fichier_icone = chemin_images + "International_draughts.png"
 fichier_pion_blanc = chemin_images + "MA-24_pion_blanc.png"
 fichier_dame_blanche = chemin_images + "MA-24_dame_blanche.png"
-fichier_pion_noir = chemin_images + "MA-24_pion_noire.png"
+# Le nom du fichier de l'image était mal écrit
+fichier_pion_noir = chemin_images + "MA-24_pion_noir.png"
 fichier_dame_noire = chemin_images + "MA-24_dame_noire.png"
 
 # Charge l'image du pion blanc
