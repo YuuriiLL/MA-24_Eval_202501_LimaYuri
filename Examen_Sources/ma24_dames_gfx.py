@@ -182,7 +182,7 @@ def start():
                 if bouton1:
                     print("-> bouton1 pressé (x :", souris_x, ", y : ", souris_y, ")")
                     selection(souris_x, souris_y)
-
+                # Ces deux autres bouton de la souris ne fonctionne pas les click, on ne peut pas déplacer avec bouton2 ou bouton3
                 if bouton2:
                     print("-> bouton2 pressé (x :", souris_x, ", y : ", souris_y, ")")
                 if bouton3:
